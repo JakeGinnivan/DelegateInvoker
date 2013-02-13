@@ -5,5 +5,6 @@ Invoke methods via reflection without wrapping errors in a TargetInvocationExcep
 
 ### Example
 
-    var invoker = DelegateInvoker.CreateInvoker(channel, invocation.TargetMethod);
+    MethodInfo targetMethod = targetObject.GetType().GetMethod("SomeMethod");
+    var invoker = DelegateInvoker.CreateInvoker(targetObject, targetMethod);
     return invoker.Call(invocation.Arguments);
