@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DelegateInvoker</id>
+    <version>1.0.1.0</version>
+    <title>DelegateInvoker</title>
+    <authors>JakeGinnivan</authors>
+    <owners>JakeGinnivan</owners>
+    <licenseUrl>https://github.com/JakeGinnivan/DelegateInvoker/Licence.md</licenseUrl>
+    <projectUrl>https://github.com/JakeGinnivan/DelegateInvoker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allow you to invoke a late-bound method, without using MethodInfo.Invoke and thus avoiding exceptions being wrapped in a TargetInvocationException</description>
+    <copyright>Copyright Jake Ginnivan 2013</copyright>
+  </metadata>
+</package>
